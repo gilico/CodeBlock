@@ -1,0 +1,257 @@
+.accordion{
+    height: auto;
+    width: 95%;
+    border: 1px solid rgb(196, 196, 196);
+    margin-top: 15px;
+    border-radius: 2px;
+}
+.codes-cont{
+    margin-bottom: 120px;
+}
+
+button{
+    width: 150px;
+    margin-top: 20px;
+    border: 2px solid green;
+    box-shadow: 0 2px 5px black;
+}
+
+.my-codes-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-codes-top form{
+    margin-top: 15px;
+    position: relative;
+}
+.my-codes-top form input{
+    height: 35px;
+    width: 200px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(204, 204, 204);
+    border-radius: 8px;
+}
+
+.my-codes-top form img{
+    cursor: pointer;
+    width: 25px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
+
+.my-codes-top .creat-new-btn{
+    margin-top: 10px;
+}
+.my-codes-top .ret-folders{
+    margin-right: 5% !important;
+    margin-top: 10px;
+}
+
+.header-card{
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+.accordion-header{
+    cursor: pointer;
+    width: 80%;
+}
+.accordion-header button{
+    text-align: left;
+    border: 1px solid black;
+    
+    width: 100%;
+    margin-top: 0;
+    border: none;
+    box-shadow: none;
+    background-color: unset;
+    color: black;
+    font-size: 18px;
+    align-self: center;
+}
+.tag-cont{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: 0 5px 5px 5px;
+    height: 20px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+.tag-cont p{
+    margin-right: 10px;
+    font-weight: bold;
+}
+.tag-cont .tag{
+    height: 22px;
+    width: calc(auto + 50px);
+    border-radius:7px;
+    margin-right: 20px;
+    background-color: green;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* line-height: 23px; */
+    display: flex;
+    align-items: center;
+}
+.tag-cont .tag-badge{
+    width: calc(auto + 50px);
+    line-height: 19px;
+    text-align: center;
+    border-radius:7px;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+.edit-btn, .del-btn{
+    margin-top: 0;
+    width: 70px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 2px 5px black;
+}
+.edit-btn{
+    background-color: green;
+    margin-right: 10px;
+}
+.del-btn{
+    background-color: rgb(103, 12, 12);
+    color: blanchedalmond;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer p {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    height: fit-content;
+}
+
+.card-footer img{
+    width: 30px;
+    margin-right: 3%;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.card-footer img:hover{
+    transform: scale(1.3);
+}
+
+
+.accordion .ace_editor{
+    border: 3px solid green;
+    width: 50% !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    height: 250px ;
+}
+
+.ace_layer{
+    height: 100%;
+}
+
+.codeblock-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.accordion-body .codeblock-content .summary-cont{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width: 45%;
+    display: unset;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 10px;
+    overflow: auto;
+    height: 500px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+
+
+
+.exit-full{
+    width: 30px;
+    height: 30px;
+    margin-right: 3%;
+    cursor: pointer;
+    display: none;
+    right: 12px;
+    bottom: 18px;
+}
+
+.full-screen{
+    background-color: rgba(71, 71, 71, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 92%;
+    z-index: 9999;
+}
+
+.full-screen .summary-cont, .full-screen .ace_editor{
+    height: 78vh !important;
+    width: 45%;
+}
+.full-screen .summary-cont{
+    font-size: 18px;
+}
+.full-screen .ace_editor *{
+    font-size: 15px !important;
+
+}
+
+.summary-cont  *{
+    text-align:justify !important; 
+}
+
+.full-screen .exit-full {
+    position: absolute;
+    display: block;
+    visibility: visible;
+    display: block;
+}
+
+

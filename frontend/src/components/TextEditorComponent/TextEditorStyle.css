@@ -1,0 +1,23 @@
+.quill-parent{
+    border-radius: 5px;
+
+}
+.quill{
+    border-radius: 5px;
+    background-color: white;
+}
+
+.ql-toolbar.ql-snow .ql-formats {
+    margin-top: 5px;
+}
+.ql-toolbar.ql-snow span button{
+    margin-right: 5px;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+    height: 200px;
+}   
+
+.quill > div{
+    margin-top: 0 !important;
+}

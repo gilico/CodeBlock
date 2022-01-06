@@ -1,0 +1,107 @@
+.container{
+    width: 60%;
+   
+}
+
+#main{
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 150px;
+}
+#main h1{
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#main h2{
+    text-align: center;
+    font-size: 2.5vw;
+}
+.mock{
+    height: 650px;
+    margin-bottom: 50px;
+}
+
+
+.button-cont{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0 auto;
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px; 
+    height: 35px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+button.log{
+    color: black;
+    margin-right: 10px;
+}
+button.log:hover{
+    color: #48aeba;
+    background-color: black;
+}
+button.sign{
+    color: #028f00;
+    background-color: black;
+}
+button.sign:hover{
+    background-color: #48aeba;
+    color: black;
+}
+
+
+.container .line {
+    border-bottom: 1px solid rgb(165, 165, 165);
+    margin-top: 25px ;
+    margin-bottom: 25px ;
+}
+
+.container .folders-img-cont{
+    height: 250px;
+    position: unset;
+    text-align: center;
+}
+
+.container .folders-img-cont img{
+    width: 60%;
+}
+.container .codes-img-cont{
+    height: 250px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.container .codes-img-cont img{
+    width: 60%;
+}
+
+.container .form-footer{
+    width: 100% !important;
+}
+
+.container .form-footer .tags-ont{
+    float: right;
+}
+.container .examples .codeblock-ex{
+    margin-bottom: 250px;
+}
+
+@media only screen and (max-width: 640px) {
+    .container{
+        width: 80%;
+    }
+    #main h1{
+        font-size: 6vw;
+    }
+    #main h2{
+        font-size: 3vw;
+    }
+
+}

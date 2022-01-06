@@ -1,0 +1,181 @@
+.new-code-page .card-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: -5px;
+    font-weight: bold;
+}
+
+.return-btn{
+   margin-right: 3%;
+   cursor: pointer;
+   width: fit-content;
+   font-weight: bold;
+   display: flex;
+}
+
+.return-btn img{
+    width: 35px;
+    height: 20px;
+}
+
+
+.new-code-page .card{
+    margin: 10px auto;
+    width: 95%;
+    margin-bottom: 8%;
+    float: left;
+}
+.new-code-page .card p{
+    margin-left: 10px;
+}
+
+.new-code-page .formgroup input{
+    margin-bottom: 10px;
+    width: 47%;
+    height: 30px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    
+}
+.new-code-page .code-exp-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.title-cont{
+    width: 50% !important;
+}
+
+.codein{
+    margin-left: 10px;
+}
+.new-code-page .new-code-form{
+    padding: 10px;
+}
+.new-code-page .formgroup{
+    width: 100%
+}
+.new-code-page .formgroup > *{
+    display: block;
+}
+
+.new-code-page .formgroup select{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.formgroup.sel{
+    margin-right: 10px;
+}
+
+.new-code-page .formgroup .ace_editor{
+    border-radius: 4px;
+    border: 1px solid rgb(0, 128, 0);
+    width: 90% !important;
+    height: 250px !important;
+    padding: 10px; 
+    margin: -1px 0 0;
+    height: 200px;
+    line-height: 1.3;
+} 
+
+
+
+.code-exp-cont .ace_editor *{ 
+    font-family : monospace !important;
+    direction:ltr !important;
+    text-align:left !important;
+    
+}
+.ace_editor *{
+    font-size: 12px !important;
+
+}
+
+
+.choose-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.new-code-form button{
+    width: 100px;
+
+}
+
+.new-code-form .del-btn{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-left: 30px;
+}
+.new-code-form .sumt-btn{
+    margin-left: 10px;
+}
+.new-code-form .sumt-btn:hover{
+    background-color: rgb(141, 181, 221);
+}
+.new-code-form .del-btn:hover{
+    background-color: black;
+    color: red;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100% !important;
+}
+.form-footer > * {
+    width: 50%;
+}
+
+.form-footer .tags-inputs{
+    display: flex;
+    justify-content: space-around;
+}
+.form-footer .tags-inputs input{
+    width: 28%;
+    height: 25px;
+    padding-left: 2px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 2px green;
+
+}
+
+
+
+body{
+    margin: 20px 40px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    background: #fafafa;
+}
+
+#root{
+    width: 97%;
+    margin: 15px auto;
+}
+
+span{
+    color: #028f00;
+}
+
+h1, h2, h3, h4, ul, li, a, p, input, label, button, div{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #444;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
