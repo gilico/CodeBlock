@@ -110,7 +110,7 @@ const handleErrors = (err) => {
 
 const age = 3 * 24 * 60 * 60; //*1000 = 3 days
 const createToken = (id) => {
-    return jwt.sign({ id }, 'codeBook123Secret', { expiresIn: age })
+    return jwt.sign({ id }, '/*SECRTET WILL BE HERE*/', { expiresIn: age })
 }
 
 
