@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon backend/app",
+    "start": "nodemon backend/app.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm start\" \"npm run client\"",
-    "server": "nodemon backend/app"
+    "server": "nodemon backend/app",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Gil Cohen",
   "license": "ISC",
