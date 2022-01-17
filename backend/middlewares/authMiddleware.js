@@ -8,7 +8,7 @@ const requireAuth = (req, res, next) => {
     if(token)
     {
         // use the jwt module 'verify' method and pass it the token and the secret we used to create token
-        jwt.verify(token, 'codeBook123Secret', (err) => {
+        jwt.verify(token, /*insert secret here*/, (err) => {
             if(err)
             {
                 console.log(err.message);
@@ -33,7 +33,7 @@ const checkUser = (req, res, next) => {
     if(token)
     {
         // take the token and the secret and decode it to 'decodedToken'
-        jwt.verify(token, 'codeBook123Secret', async (err, decodedToken) => {
+        jwt.verify(token, /*insert secret here*/, async (err, decodedToken) => {
             if(err)
             {
                 console.log(err.message);
